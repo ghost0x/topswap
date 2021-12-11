@@ -8,19 +8,19 @@
     </header>
 
     <main class="bg-white max-w-3xl mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
-        <HelloWorld />
+        <Pools />
     </main>
 
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Pools from './components/Pools.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Pools
   }
 }
 </script>
